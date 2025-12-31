@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Space Blaster Neon</title>
+  <style>
+    body {
+      margin: 0;
+      background: black;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+    }
+
+    canvas {
+      display: block;
+      margin: 0 auto;
+      background: #020202;
+      border: 3px solid #00eaff;
+      box-shadow: 0 0 25px #00eaff;
+    }
+
+    #info {
+      margin-top: 10px;
+      opacity: 0.8;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <canvas id="game" width="480" height="640"></canvas>
+  <div id="info">Move with Arrow Keys or A/D — Space to Shoot</div>
+
+  <script src="game.js"></script>
+</body>
+</html>
